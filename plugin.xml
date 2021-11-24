@@ -8,7 +8,7 @@
     <keywords>cordova,facebook</keywords>
 
     <js-module src="www/CordovaFacebook.js" name="CordovaFacebook">
-        <clobbers target="CordovaFacebook" />
+        <clobbers target="cordova.plugins.facebook" />
     </js-module>
 
     <preference name="FACEBOOK_APP_ID" />
